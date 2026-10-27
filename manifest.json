@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "date": "2026-10-27",
-  "notes": "Первая версия с автообновлением",
+  "notes": "Новый дизайн: шторка, живые картинки, всё выполняется внутри окна",
   "files": [
     {
       "path": "call-help.ps1",
@@ -17,7 +17,7 @@
     },
     {
       "path": "helper-app.ps1",
-      "sha256": "7ea16ae36c08ad67994f6229a2e73be469ce8eed3b0f02f941fa2a6acd46df18"
+      "sha256": "d09d760cf2f32b1b472e4db13314658990f663301e043a132cc5ce09f8597cc3"
     },
     {
       "path": "helper-menu.ps1",
@@ -36,6 +36,10 @@
       "sha256": "042e1aab4ecc04f12e02236cc8bf91e80f69603b36a3ac32ba0f602e4bb637ee"
     },
     {
+      "path": "run.ps1",
+      "sha256": "6bb6d2dbaf0193e8ad3218de286a70433d70217e0d57ddb36d971732447c4dfe"
+    },
+    {
       "path": "site-fix.ps1",
       "sha256": "e3c5c79e533224d480c2ecf553e37a784d5af3128afa4c126d16df6f733da160"
     },
@@ -49,7 +53,7 @@
     },
     {
       "path": "updater.ps1",
-      "sha256": "94def52e664b751e39ba4f4de343a52a5fe3375f00ed1ff14619f26387543fab"
+      "sha256": "0f91587ecaddab39e556149a657e5ab893946a20700595775919be4d59cfc2c5"
     },
     {
       "path": "zapret-repick.ps1",

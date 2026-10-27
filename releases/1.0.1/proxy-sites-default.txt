@@ -1,0 +1,50 @@
+﻿# Сайты, которые браузер открывает через Happ (VPN). Всё остальное — напрямую.
+# Одна строка — один сайт. Новый сайт добавляет кнопка «Сайт не открывается» в Помощнике.
+# Мессенджеры
+telegram.org
+t.me
+telegram.me
+telesco.pe
+cdn-telegram.org
+whatsapp.com
+whatsapp.net
+wa.me
+viber.com
+# Соцсети
+instagram.com
+cdninstagram.com
+facebook.com
+fbcdn.net
+facebook.net
+fb.com
+threads.net
+threads.com
+x.com
+twitter.com
+twimg.com
+t.co
+linkedin.com
+licdn.com
+# Нейросети и переводчики
+chatgpt.com
+openai.com
+oaistatic.com
+oaiusercontent.com
+copilot.microsoft.com
+deepl.com
+translate.google.com
+translate.googleapis.com
+# Музыка, учёба, работа
+soundcloud.com
+sndcdn.com
+notion.so
+notion.site
+notion.com
+canva.com
+medium.com
+coursera.org
+grammarly.com
+grammarly.io
+proton.me
+protonmail.com
+patreon.com
