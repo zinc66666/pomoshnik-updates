@@ -1,27 +1,31 @@
 {
-    "version":  "1.0.5",
+    "version":  "1.0.6",
     "date":  "2026-10-28",
-    "notes":  "Улучшено: если новая версия не установилась или не запускается, Помощник сам вернёт прошлую рабочую и больше не будет ставить сломанную; два обновления одновременно больше не идут.",
+    "notes":  "Улучшено: внутреннее устройство Помощника подготовлено к новым возможностям. Для тебя ничего не меняется.",
     "files":  [
                   {
                       "path":  "call-help.ps1",
-                      "sha256":  "5d1622cbc4487689b61cdf60af7a98e8e17a04eae26a0c8b116f03f987b95f55"
+                      "sha256":  "b6772475bf486198263f61927c874ab7282caa8d5051272f8f85339ae83183f0"
                   },
                   {
                       "path":  "file-repair.ps1",
-                      "sha256":  "0a3b93dd1549350a7912e286fb509bd8108816057af00fae89b10884cdf82bad"
+                      "sha256":  "bd9f0d4c415897e1f6025cf2570df984fdf79ef3bac196225a611726ba6a26e5"
                   },
                   {
                       "path":  "guard-toggle.ps1",
-                      "sha256":  "57ea5acc59a1074f3058eef790b7c2c574e84f20df94a94f6a63f89f8ab41477"
+                      "sha256":  "bf906b121a6a9a75ee89cde1230caf1fa9cace121a79ad1cf8b62cfe26a25fbe"
                   },
                   {
                       "path":  "helper-app.ps1",
-                      "sha256":  "ad2ffb4f6333e6bd628abbf402321d313e0dfc521487b72d20c5574670583928"
+                      "sha256":  "cf245a0f1c13aeff00c1d85d8e945181ebd024ca86efab2aed45db5269324a56"
                   },
                   {
                       "path":  "helper-menu.ps1",
-                      "sha256":  "fccfb27b628d0af6652a070bec22ad86190ae850af6e6ab6bee94fcc1cffb1c3"
+                      "sha256":  "066c01042a580baa71f93786ad28a18c5e7167f29e8fcb8ce9e26ec40eb5350c"
+                  },
+                  {
+                      "path":  "pct-core.ps1",
+                      "sha256":  "b804cc3a66a4aa59c465d26054642785fa1d5176748593b729d989d5a2b07f02"
                   },
                   {
                       "path":  "perf-now.ps1",
@@ -37,27 +41,27 @@
                   },
                   {
                       "path":  "run.ps1",
-                      "sha256":  "6bb6d2dbaf0193e8ad3218de286a70433d70217e0d57ddb36d971732447c4dfe"
+                      "sha256":  "77e8eb5751187bbe5bb70940a7a12e32bf8915bdc93c8213d0ae564af86afb2f"
                   },
                   {
                       "path":  "site-fix.ps1",
-                      "sha256":  "e3c5c79e533224d480c2ecf553e37a784d5af3128afa4c126d16df6f733da160"
+                      "sha256":  "a62e7ef6fed74da7490d8fcefd738c64acf1bcbba7d5b0415a8ace7f3e4149da"
                   },
                   {
                       "path":  "sites-watch.ps1",
-                      "sha256":  "7762ed7ac870f2b537f93d88f8a18b86b5991048ffabe3e11c139cd12bc21b20"
+                      "sha256":  "7147c072f82111d8f1308f75d7c60e705a6639e6002987dc27cf55809c4455d3"
                   },
                   {
                       "path":  "smart-proxy.ps1",
-                      "sha256":  "25fb9743f264500ad2d57759920705b7206f6c0e92c5f69a8618a40951afd5eb"
+                      "sha256":  "aeff21b9a738c49f856004cd657f824624f74b45649b322f1c78cf1eab97e3c7"
                   },
                   {
                       "path":  "updater.ps1",
-                      "sha256":  "5bed4a92ff05df8207c09f14ad6b450b66f98f7e4e79012d45c043f02be696c9"
+                      "sha256":  "a300113f17e94663536dce0a55324abba1f77146d88d56f71006ff66650e47a3"
                   },
                   {
                       "path":  "zapret-repick.ps1",
-                      "sha256":  "b1ba023f0fbe2b47bd9655185ccbe165052c45b68cc37042f3f89ba0920261d5"
+                      "sha256":  "b0cda2e2df9b1465fe87cf636dc1416e1b02e50661e03710ca2ee995f7119996"
                   }
               ]
 }
