@@ -1,63 +1,63 @@
 {
-  "version": "1.0.3",
-  "date": "2026-10-27",
-  "notes": "TikTok в браузере открывается через Happ — обычная свежая лента",
-  "files": [
-    {
-      "path": "call-help.ps1",
-      "sha256": "5d1622cbc4487689b61cdf60af7a98e8e17a04eae26a0c8b116f03f987b95f55"
-    },
-    {
-      "path": "file-repair.ps1",
-      "sha256": "0a3b93dd1549350a7912e286fb509bd8108816057af00fae89b10884cdf82bad"
-    },
-    {
-      "path": "guard-toggle.ps1",
-      "sha256": "57ea5acc59a1074f3058eef790b7c2c574e84f20df94a94f6a63f89f8ab41477"
-    },
-    {
-      "path": "helper-app.ps1",
-      "sha256": "14e7c83dea57014dbe0d11e8d2c34d3c91463490a943d4701ce7b6cfb885aece"
-    },
-    {
-      "path": "helper-menu.ps1",
-      "sha256": "fccfb27b628d0af6652a070bec22ad86190ae850af6e6ab6bee94fcc1cffb1c3"
-    },
-    {
-      "path": "perf-now.ps1",
-      "sha256": "a859896c051d6d20911e023d07372d92461a1b6866d8b76bac8aedc5e7ea2c7e"
-    },
-    {
-      "path": "privacy-check.ps1",
-      "sha256": "e40abbef20a2af5272dec9152b06b7cdd582bdbfcfba1df34dd335cabd087503"
-    },
-    {
-      "path": "proxy-sites-default.txt",
-      "sha256": "2e64bd59a57a30a874e39b15fd9d4a83ff66ad58da266cf33c72807c7c5bedc0"
-    },
-    {
-      "path": "run.ps1",
-      "sha256": "6bb6d2dbaf0193e8ad3218de286a70433d70217e0d57ddb36d971732447c4dfe"
-    },
-    {
-      "path": "site-fix.ps1",
-      "sha256": "e3c5c79e533224d480c2ecf553e37a784d5af3128afa4c126d16df6f733da160"
-    },
-    {
-      "path": "sites-watch.ps1",
-      "sha256": "7762ed7ac870f2b537f93d88f8a18b86b5991048ffabe3e11c139cd12bc21b20"
-    },
-    {
-      "path": "smart-proxy.ps1",
-      "sha256": "25fb9743f264500ad2d57759920705b7206f6c0e92c5f69a8618a40951afd5eb"
-    },
-    {
-      "path": "updater.ps1",
-      "sha256": "0f91587ecaddab39e556149a657e5ab893946a20700595775919be4d59cfc2c5"
-    },
-    {
-      "path": "zapret-repick.ps1",
-      "sha256": "b1ba023f0fbe2b47bd9655185ccbe165052c45b68cc37042f3f89ba0920261d5"
-    }
-  ]
+    "version":  "1.0.4",
+    "date":  "2026-10-27",
+    "notes":  "Исправлено: раздел «Сторожа» открывается сразу, без зависания; если действие прервалось, окно об этом скажет. Улучшено: внизу видно, что сейчас идёт и что готово; второе окно Помощника больше не открывается; при закрытии во время работы окно переспросит.",
+    "files":  [
+                  {
+                      "path":  "call-help.ps1",
+                      "sha256":  "5d1622cbc4487689b61cdf60af7a98e8e17a04eae26a0c8b116f03f987b95f55"
+                  },
+                  {
+                      "path":  "file-repair.ps1",
+                      "sha256":  "0a3b93dd1549350a7912e286fb509bd8108816057af00fae89b10884cdf82bad"
+                  },
+                  {
+                      "path":  "guard-toggle.ps1",
+                      "sha256":  "57ea5acc59a1074f3058eef790b7c2c574e84f20df94a94f6a63f89f8ab41477"
+                  },
+                  {
+                      "path":  "helper-app.ps1",
+                      "sha256":  "ad2ffb4f6333e6bd628abbf402321d313e0dfc521487b72d20c5574670583928"
+                  },
+                  {
+                      "path":  "helper-menu.ps1",
+                      "sha256":  "fccfb27b628d0af6652a070bec22ad86190ae850af6e6ab6bee94fcc1cffb1c3"
+                  },
+                  {
+                      "path":  "perf-now.ps1",
+                      "sha256":  "a859896c051d6d20911e023d07372d92461a1b6866d8b76bac8aedc5e7ea2c7e"
+                  },
+                  {
+                      "path":  "privacy-check.ps1",
+                      "sha256":  "e40abbef20a2af5272dec9152b06b7cdd582bdbfcfba1df34dd335cabd087503"
+                  },
+                  {
+                      "path":  "proxy-sites-default.txt",
+                      "sha256":  "2e64bd59a57a30a874e39b15fd9d4a83ff66ad58da266cf33c72807c7c5bedc0"
+                  },
+                  {
+                      "path":  "run.ps1",
+                      "sha256":  "6bb6d2dbaf0193e8ad3218de286a70433d70217e0d57ddb36d971732447c4dfe"
+                  },
+                  {
+                      "path":  "site-fix.ps1",
+                      "sha256":  "e3c5c79e533224d480c2ecf553e37a784d5af3128afa4c126d16df6f733da160"
+                  },
+                  {
+                      "path":  "sites-watch.ps1",
+                      "sha256":  "7762ed7ac870f2b537f93d88f8a18b86b5991048ffabe3e11c139cd12bc21b20"
+                  },
+                  {
+                      "path":  "smart-proxy.ps1",
+                      "sha256":  "25fb9743f264500ad2d57759920705b7206f6c0e92c5f69a8618a40951afd5eb"
+                  },
+                  {
+                      "path":  "updater.ps1",
+                      "sha256":  "0f91587ecaddab39e556149a657e5ab893946a20700595775919be4d59cfc2c5"
+                  },
+                  {
+                      "path":  "zapret-repick.ps1",
+                      "sha256":  "b1ba023f0fbe2b47bd9655185ccbe165052c45b68cc37042f3f89ba0920261d5"
+                  }
+              ]
 }
