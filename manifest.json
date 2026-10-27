@@ -1,0 +1,59 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-27",
+  "notes": "Первая версия с автообновлением",
+  "files": [
+    {
+      "path": "call-help.ps1",
+      "sha256": "5d1622cbc4487689b61cdf60af7a98e8e17a04eae26a0c8b116f03f987b95f55"
+    },
+    {
+      "path": "file-repair.ps1",
+      "sha256": "0a3b93dd1549350a7912e286fb509bd8108816057af00fae89b10884cdf82bad"
+    },
+    {
+      "path": "guard-toggle.ps1",
+      "sha256": "57ea5acc59a1074f3058eef790b7c2c574e84f20df94a94f6a63f89f8ab41477"
+    },
+    {
+      "path": "helper-app.ps1",
+      "sha256": "7ea16ae36c08ad67994f6229a2e73be469ce8eed3b0f02f941fa2a6acd46df18"
+    },
+    {
+      "path": "helper-menu.ps1",
+      "sha256": "fccfb27b628d0af6652a070bec22ad86190ae850af6e6ab6bee94fcc1cffb1c3"
+    },
+    {
+      "path": "perf-now.ps1",
+      "sha256": "a859896c051d6d20911e023d07372d92461a1b6866d8b76bac8aedc5e7ea2c7e"
+    },
+    {
+      "path": "privacy-check.ps1",
+      "sha256": "e40abbef20a2af5272dec9152b06b7cdd582bdbfcfba1df34dd335cabd087503"
+    },
+    {
+      "path": "proxy-sites-default.txt",
+      "sha256": "042e1aab4ecc04f12e02236cc8bf91e80f69603b36a3ac32ba0f602e4bb637ee"
+    },
+    {
+      "path": "site-fix.ps1",
+      "sha256": "e3c5c79e533224d480c2ecf553e37a784d5af3128afa4c126d16df6f733da160"
+    },
+    {
+      "path": "sites-watch.ps1",
+      "sha256": "7762ed7ac870f2b537f93d88f8a18b86b5991048ffabe3e11c139cd12bc21b20"
+    },
+    {
+      "path": "smart-proxy.ps1",
+      "sha256": "25fb9743f264500ad2d57759920705b7206f6c0e92c5f69a8618a40951afd5eb"
+    },
+    {
+      "path": "updater.ps1",
+      "sha256": "94def52e664b751e39ba4f4de343a52a5fe3375f00ed1ff14619f26387543fab"
+    },
+    {
+      "path": "zapret-repick.ps1",
+      "sha256": "b1ba023f0fbe2b47bd9655185ccbe165052c45b68cc37042f3f89ba0920261d5"
+    }
+  ]
+}
