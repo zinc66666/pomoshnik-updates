@@ -1,7 +1,7 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "date": "2026-10-27",
-  "notes": "Точный счёт замечаний после проверки",
+  "notes": "TikTok в браузере открывается через Happ — обычная свежая лента",
   "files": [
     {
       "path": "call-help.ps1",
@@ -33,7 +33,7 @@
     },
     {
       "path": "proxy-sites-default.txt",
-      "sha256": "042e1aab4ecc04f12e02236cc8bf91e80f69603b36a3ac32ba0f602e4bb637ee"
+      "sha256": "2e64bd59a57a30a874e39b15fd9d4a83ff66ad58da266cf33c72807c7c5bedc0"
     },
     {
       "path": "run.ps1",
