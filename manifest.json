@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.25",
-    "date":  "2026-10-29",
-    "notes":  "Остальные инструменты теперь обновляются вместе с Помощником.",
+    "version":  "1.0.26",
+    "date":  "2026-10-30",
+    "notes":  "Исправлены проверка безопасности, автозагрузка и обновление программ.",
     "files":  [
                   {
                       "path":  "backup.ps1",
@@ -21,7 +21,7 @@
                   },
                   {
                       "path":  "check-now.ps1",
-                      "sha256":  "67171d5d8e1d88afa5bb585b5cf4cebf6f2ef0d7978b02be254dbf74649e8d36"
+                      "sha256":  "402d485ea08be450f91a4213a4e9496949b99c055050683d3337187941e58467"
                   },
                   {
                       "path":  "check-sites.ps1",
@@ -53,7 +53,7 @@
                   },
                   {
                       "path":  "guard-autoruns.ps1",
-                      "sha256":  "b8aa639db97c681bd69967044b42be5da00ed5c14a52a558fe1f937f01e03097"
+                      "sha256":  "26561797cb1d9c6a15d909ec891e0a4ee0f7b1504b30f3fa0cb4f275d49deb0e"
                   },
                   {
                       "path":  "guard-downloads.ps1",
@@ -101,7 +101,7 @@
                   },
                   {
                       "path":  "restart-zapret.ps1",
-                      "sha256":  "1756573289ebe6ae83998b0a05f4c585d0c35048e77c45ec08762ad5c2a6a549"
+                      "sha256":  "b868a5d098f142d185bdc0f4cdcc2261f440a1330b7e1cb0ad2cc5f0e3b20c76"
                   },
                   {
                       "path":  "revive.ps1",
@@ -129,7 +129,7 @@
                   },
                   {
                       "path":  "startup-all.ps1",
-                      "sha256":  "120148a403b3f0dbbb849d3b1c86a2c503e53751930d36bd4c5eefd6e0de8ce5"
+                      "sha256":  "4f60f60348dbbb74861ac5fe1ca3143b21c4761ac94d59b319c1459a15e75401"
                   },
                   {
                       "path":  "startup-apps.ps1",
@@ -141,11 +141,11 @@
                   },
                   {
                       "path":  "system-health.ps1",
-                      "sha256":  "5aff24a2c1409ed791faea2901c2cdb08ea275fa1ee81e34035a6d112d1718a0"
+                      "sha256":  "5a705fab8fc284ac01969e0716f2d6eb2aaa6a7852dce12945b800c5bfacc11f"
                   },
                   {
                       "path":  "undo-sort-downloads.ps1",
-                      "sha256":  "a130aee5001d86c90b36cca4558b304216a1484efffbfb2993ce31637c787dce"
+                      "sha256":  "afac6dcd16a71331c5a7dae21852d1d05ad0e85d0ab5a6fc089bf0898de73af9"
                   },
                   {
                       "path":  "uninstall-guard.ps1",
@@ -153,7 +153,7 @@
                   },
                   {
                       "path":  "update-apps.ps1",
-                      "sha256":  "342a2e9771a29485ae5896af97daa8b5b61a8d0c43e655fe024f8de6ffc9ba91"
+                      "sha256":  "9fd426f5b9753247e622ed85345e79c3fdc84ce5f760eef2b284ebdcaa04f8d8"
                   },
                   {
                       "path":  "updater.ps1",
@@ -169,10 +169,11 @@
 
                             ],
                     "fixed":  [
-
+                                  "Проверка безопасности больше не пишет «брандмауэр включён», если Windows не ответила",
+                                  "«Обновить программы» снова показывает список и спрашивает кнопками"
                               ],
                     "improved":  [
-                                     "Автозагрузка, резервная копия, разбор Загрузок и проверка сайтов теперь обновляются вместе с Помощником"
+
                                  ]
                 }
 }
