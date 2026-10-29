@@ -1,8 +1,12 @@
 {
-    "version":  "1.0.24",
+    "version":  "1.0.25",
     "date":  "2026-10-29",
-    "notes":  "Проверки и уборка теперь обновляются вместе с Помощником.",
+    "notes":  "Остальные инструменты теперь обновляются вместе с Помощником.",
     "files":  [
+                  {
+                      "path":  "backup.ps1",
+                      "sha256":  "bbb644a8e737ee640fe02e2011439d14bec89987aba32dd99753ba1fd639c693"
+                  },
                   {
                       "path":  "battery-report.ps1",
                       "sha256":  "b700b11dcf620c136d8d2bb4d9b1bc94d22949cab361e2a197d4ccc97817e614"
@@ -20,8 +24,16 @@
                       "sha256":  "67171d5d8e1d88afa5bb585b5cf4cebf6f2ef0d7978b02be254dbf74649e8d36"
                   },
                   {
+                      "path":  "check-sites.ps1",
+                      "sha256":  "65b54ef2926443b8b02b25ef2ac2a3b581900726c4d2cc6db5e0e79a896dd548"
+                  },
+                  {
                       "path":  "clean-junk.ps1",
                       "sha256":  "d20884ca8c13c28e0d6ef236730f96189ecc3d27013fe426a5bf901da4e1627d"
+                  },
+                  {
+                      "path":  "clean-temp.ps1",
+                      "sha256":  "7f7e3d0412f43f788681980b711f9d496e65552fe4ca3b678ff26b3a544c053c"
                   },
                   {
                       "path":  "disk-space.ps1",
@@ -40,8 +52,20 @@
                       "sha256":  "79635fe8d7ffcb7d2b27b050e1af02e925216780f19f25ffa9f7e8fa7d374dbf"
                   },
                   {
+                      "path":  "guard-autoruns.ps1",
+                      "sha256":  "b8aa639db97c681bd69967044b42be5da00ed5c14a52a558fe1f937f01e03097"
+                  },
+                  {
+                      "path":  "guard-downloads.ps1",
+                      "sha256":  "3bfd3124645abd3682b5d304e77f5f4e2476e01daacf27e7d8154bffb0c0e997"
+                  },
+                  {
                       "path":  "guard-toggle.ps1",
                       "sha256":  "bf906b121a6a9a75ee89cde1230caf1fa9cace121a79ad1cf8b62cfe26a25fbe"
+                  },
+                  {
+                      "path":  "happ-connect.ps1",
+                      "sha256":  "daf49919432b5d7e677db1cb6f66a38495c19931dd0424acabe26333ef3bf647"
                   },
                   {
                       "path":  "helper-app.ps1",
@@ -76,6 +100,10 @@
                       "sha256":  "2e64bd59a57a30a874e39b15fd9d4a83ff66ad58da266cf33c72807c7c5bedc0"
                   },
                   {
+                      "path":  "restart-zapret.ps1",
+                      "sha256":  "1756573289ebe6ae83998b0a05f4c585d0c35048e77c45ec08762ad5c2a6a549"
+                  },
+                  {
                       "path":  "revive.ps1",
                       "sha256":  "c7506169fb10156f33f444344dd935e0edf641a84e0c6e9cf3df93108c906e12"
                   },
@@ -96,12 +124,36 @@
                       "sha256":  "aeff21b9a738c49f856004cd657f824624f74b45649b322f1c78cf1eab97e3c7"
                   },
                   {
+                      "path":  "sort-downloads.ps1",
+                      "sha256":  "75265e4ab116eda6b3f6109fd772d4a199ccaaf39c78da4cecd6bf2c97896d37"
+                  },
+                  {
+                      "path":  "startup-all.ps1",
+                      "sha256":  "120148a403b3f0dbbb849d3b1c86a2c503e53751930d36bd4c5eefd6e0de8ce5"
+                  },
+                  {
+                      "path":  "startup-apps.ps1",
+                      "sha256":  "e370cd435fa50703f0e504b8a38e1f2b6f7b152ff947a41350b19ba30dad5104"
+                  },
+                  {
                       "path":  "start-zapret.ps1",
                       "sha256":  "17b33bcf2d3307e952ec4a57a0ccd47e141883af9c2f33444a1448254a995c12"
                   },
                   {
                       "path":  "system-health.ps1",
                       "sha256":  "5aff24a2c1409ed791faea2901c2cdb08ea275fa1ee81e34035a6d112d1718a0"
+                  },
+                  {
+                      "path":  "undo-sort-downloads.ps1",
+                      "sha256":  "a130aee5001d86c90b36cca4558b304216a1484efffbfb2993ce31637c787dce"
+                  },
+                  {
+                      "path":  "uninstall-guard.ps1",
+                      "sha256":  "004db784d18114cc5a586ca5fe40e05187617aa9c4fae6d4587131377ac55288"
+                  },
+                  {
+                      "path":  "update-apps.ps1",
+                      "sha256":  "342a2e9771a29485ae5896af97daa8b5b61a8d0c43e655fe024f8de6ffc9ba91"
                   },
                   {
                       "path":  "updater.ps1",
@@ -120,7 +172,7 @@
 
                               ],
                     "improved":  [
-                                     "Проверка ноутбука, безопасности, батареи и уборка теперь обновляются вместе с Помощником"
+                                     "Автозагрузка, резервная копия, разбор Загрузок и проверка сайтов теперь обновляются вместе с Помощником"
                                  ]
                 }
 }
