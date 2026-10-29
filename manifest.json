@@ -1,8 +1,12 @@
 {
-    "version":  "1.0.23",
+    "version":  "1.0.24",
     "date":  "2026-10-29",
-    "notes":  "Новое «Почему тормозит» в «Скорости».",
+    "notes":  "Проверки и уборка теперь обновляются вместе с Помощником.",
     "files":  [
+                  {
+                      "path":  "battery-report.ps1",
+                      "sha256":  "b700b11dcf620c136d8d2bb4d9b1bc94d22949cab361e2a197d4ccc97817e614"
+                  },
                   {
                       "path":  "big-clean.ps1",
                       "sha256":  "46e526ca38743d1f23dbc27f31138541f892c5e8f5dbdf740671db6ec0e17a74"
@@ -10,6 +14,18 @@
                   {
                       "path":  "call-help.ps1",
                       "sha256":  "0fdf8511726aa9eb52d2125842e62cd018c1b30e4c9cdc6db0c4084955ce1b3f"
+                  },
+                  {
+                      "path":  "check-now.ps1",
+                      "sha256":  "67171d5d8e1d88afa5bb585b5cf4cebf6f2ef0d7978b02be254dbf74649e8d36"
+                  },
+                  {
+                      "path":  "clean-junk.ps1",
+                      "sha256":  "d20884ca8c13c28e0d6ef236730f96189ecc3d27013fe426a5bf901da4e1627d"
+                  },
+                  {
+                      "path":  "disk-space.ps1",
+                      "sha256":  "9bf39b5c2480eea3ba734834570c24f58dfabb11d8f8b47521baff1fc0e0a0a7"
                   },
                   {
                       "path":  "energy.ps1",
@@ -20,24 +36,32 @@
                       "sha256":  "1a42f69884e2c90f3791edbba534b5090b4feddf8f4edcff4efff27e0057dd8a"
                   },
                   {
+                      "path":  "fix-internet.ps1",
+                      "sha256":  "79635fe8d7ffcb7d2b27b050e1af02e925216780f19f25ffa9f7e8fa7d374dbf"
+                  },
+                  {
                       "path":  "guard-toggle.ps1",
                       "sha256":  "bf906b121a6a9a75ee89cde1230caf1fa9cace121a79ad1cf8b62cfe26a25fbe"
                   },
                   {
                       "path":  "helper-app.ps1",
-                      "sha256":  "c0e1c6eee3c3c798e90645c8ff9ac9f576550a5dc6f3932dce9742c317921a45"
+                      "sha256":  "be1a41f49e3fcda2fc848066913b8e5b01cf1719f22a313dc1f02d1a09c4b5c5"
                   },
                   {
                       "path":  "helper-menu.ps1",
-                      "sha256":  "7a9ecc2dbf2fcc1d3f7818c0a6432b6b655eb990b27e817e0de9b7b5e9147ac5"
+                      "sha256":  "46ea1da6fda0299c1ea40115fa4d38b98309461800969d28ee157781d1806303"
                   },
                   {
                       "path":  "mouse.ps1",
                       "sha256":  "65b8444e2ccb291f81586add81b8cf3cc3143006698eb5bf479cd662d54c422e"
                   },
                   {
+                      "path":  "notify.ps1",
+                      "sha256":  "9766d8bb6fba2caf51aa88b28a30174e7e92039101cc6e5eae7eb4412456880b"
+                  },
+                  {
                       "path":  "pct-core.ps1",
-                      "sha256":  "7296fd642b6bb2be558d7e686b41e3a14c5d1713b4725854341a185fb64c6892"
+                      "sha256":  "1249291d643db2c00b55cbb9ed96d62ee87848e999185dd1bd78c1711428ef41"
                   },
                   {
                       "path":  "perf-now.ps1",
@@ -65,30 +89,38 @@
                   },
                   {
                       "path":  "sites-watch.ps1",
-                      "sha256":  "5556f713706333108e69e9c7badbc5cbf8b1a98e4292559137b1d2984d876c4e"
+                      "sha256":  "97dbee66e68c68c6819c17277ee12268bdd9094b26fdabe4fe455044c213a81f"
                   },
                   {
                       "path":  "smart-proxy.ps1",
                       "sha256":  "aeff21b9a738c49f856004cd657f824624f74b45649b322f1c78cf1eab97e3c7"
                   },
                   {
+                      "path":  "start-zapret.ps1",
+                      "sha256":  "17b33bcf2d3307e952ec4a57a0ccd47e141883af9c2f33444a1448254a995c12"
+                  },
+                  {
+                      "path":  "system-health.ps1",
+                      "sha256":  "5aff24a2c1409ed791faea2901c2cdb08ea275fa1ee81e34035a6d112d1718a0"
+                  },
+                  {
                       "path":  "updater.ps1",
-                      "sha256":  "ea4c6625b11d19f760d68a9d012ec2b1a51feec9070980c422042d01ec8ee477"
+                      "sha256":  "fcc87549a6e5dc6e0af71ae7523980386c086d7dbe526540aa0a3c69968c848e"
                   },
                   {
                       "path":  "zapret-repick.ps1",
-                      "sha256":  "28cd768af37414f7a829672064a0b40f42381c808fad0f5cffb2cb185b8ed783"
+                      "sha256":  "4ef08ccdfd071e9b6413398576940cb02863cb497296022615f55efebbcc4a36"
                   }
               ],
     "changes":  {
                     "new":  [
-                                "В «Скорости» новая карточка «Почему тормозит»: найдёт главную причину и скажет, что сделать"
+
                             ],
                     "fixed":  [
 
                               ],
                     "improved":  [
-
+                                     "Проверка ноутбука, безопасности, батареи и уборка теперь обновляются вместе с Помощником"
                                  ]
                 }
 }
