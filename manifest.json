@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.29",
+    "version":  "1.0.30",
     "date":  "2026-10-30",
-    "notes":  "Тачпад ноутбука теперь опознаётся правильно",
+    "notes":  "Помощник защищён от подмены своих файлов",
     "files":  [
                   {
                       "path":  "backup.ps1",
@@ -13,7 +13,7 @@
                   },
                   {
                       "path":  "big-clean.ps1",
-                      "sha256":  "46e526ca38743d1f23dbc27f31138541f892c5e8f5dbdf740671db6ec0e17a74"
+                      "sha256":  "0b9da3cb67d272aace180f1ddae62c6d7804648db07c1d99f3c61be1295de232"
                   },
                   {
                       "path":  "call-help.ps1",
@@ -21,7 +21,7 @@
                   },
                   {
                       "path":  "check-now.ps1",
-                      "sha256":  "52bdd0480dd4354ed27251b364b1260bd999551e3b24fa3d6aafc951e473cb48"
+                      "sha256":  "f70329bf25ad787d2872f4b3ecfe6c417522ef7e45f6f43430aa0a9124c37e6a"
                   },
                   {
                       "path":  "check-sites.ps1",
@@ -29,11 +29,11 @@
                   },
                   {
                       "path":  "clean-junk.ps1",
-                      "sha256":  "37058831cfe2a530f1f3ef39b1a651de667ebc98698f6357a0f2bdb70cf73d18"
+                      "sha256":  "ab935d52efe016912ebeae5fb6f029311e205427680056a702c4288769105e70"
                   },
                   {
                       "path":  "clean-temp.ps1",
-                      "sha256":  "c0e796df6b961ff7bb75b7b53f0f531fa7999261c896d546b2cbab5c72e8ee36"
+                      "sha256":  "b0b22d58afcbea4e16b75deb72f8f1f76879fd09d41a41a75fb8abf632d40d4e"
                   },
                   {
                       "path":  "disk-space.ps1",
@@ -41,11 +41,11 @@
                   },
                   {
                       "path":  "energy.ps1",
-                      "sha256":  "1e3db0957a2321d5fbb980ac6a5572fb352358366f2edeccc62a21f4518c74d7"
+                      "sha256":  "18500204dddf9694f2527a520bbc6f14ed9d53bd70b0f253b2f33487a903e2d7"
                   },
                   {
                       "path":  "file-repair.ps1",
-                      "sha256":  "1a42f69884e2c90f3791edbba534b5090b4feddf8f4edcff4efff27e0057dd8a"
+                      "sha256":  "f484ff5b6df12d29c368c342c150fb4faa84b7a39cbb9fc7c2866bd09bb6c246"
                   },
                   {
                       "path":  "fix-internet.ps1",
@@ -53,11 +53,11 @@
                   },
                   {
                       "path":  "guard-autoruns.ps1",
-                      "sha256":  "26561797cb1d9c6a15d909ec891e0a4ee0f7b1504b30f3fa0cb4f275d49deb0e"
+                      "sha256":  "184a39e9ecd2cc249298d428da624a9b88fcd5026571bab0d1dccfba8d48e4ca"
                   },
                   {
                       "path":  "guard-downloads.ps1",
-                      "sha256":  "2f056c1cf7aab28d2366f2a6e7f99c7b212de3482192d9d035ec026f3b3515cd"
+                      "sha256":  "16aab38c0cf746d92eefaa7f5c537845b689014c9272b50f5f1aca3e12934c9e"
                   },
                   {
                       "path":  "guard-toggle.ps1",
@@ -69,23 +69,23 @@
                   },
                   {
                       "path":  "helper-app.ps1",
-                      "sha256":  "0f838d69ff5f88683fe5c05d30d3ff8df13e0bd91b0fb26a4e0560a6447d4caf"
+                      "sha256":  "abc711c15e9953f1712df7ab312d6cec2521a6969e9c211ca67343681c06802e"
                   },
                   {
                       "path":  "helper-menu.ps1",
-                      "sha256":  "46ea1da6fda0299c1ea40115fa4d38b98309461800969d28ee157781d1806303"
+                      "sha256":  "e18283d79c376bd257973a233f55e489fc7f577eaf1a57222342898d3d028930"
                   },
                   {
                       "path":  "mouse.ps1",
-                      "sha256":  "ded659830c01838f66521954f7ee8097e7826a77e4142a619b25c8393677521e"
+                      "sha256":  "8b5b606d2ffcca4a09904eae3163457837be531ddae4d5c935ca8a91a8ce2692"
                   },
                   {
                       "path":  "notify.ps1",
-                      "sha256":  "9766d8bb6fba2caf51aa88b28a30174e7e92039101cc6e5eae7eb4412456880b"
+                      "sha256":  "a55fad89b24296be39f36a8682ca452eed7cc755944d0040ba95662f7148aeaa"
                   },
                   {
                       "path":  "pct-core.ps1",
-                      "sha256":  "ac6b3ae0c44ef25cf7f71326828d2e7b70e1e66c04a982bbcb4eab1424a2f30c"
+                      "sha256":  "f8fd711d7da806371452b83c6296e1f326d01af6ebd0f66468f31e9e7c5c0111"
                   },
                   {
                       "path":  "perf-now.ps1",
@@ -105,7 +105,7 @@
                   },
                   {
                       "path":  "revive.ps1",
-                      "sha256":  "7000eb211f92b371cc49f8063766022842198aafe46204f965be7ed9be3cdf28"
+                      "sha256":  "c9e1ca741775ecbdc49c292842c34cf81ce43dd8ae72feca9ff12137ba8d3367"
                   },
                   {
                       "path":  "run.ps1",
@@ -113,15 +113,15 @@
                   },
                   {
                       "path":  "site-fix.ps1",
-                      "sha256":  "136ad1562fae11436c2db30452f6855c74fe080fbfa8f39a95a94bea34e1fe91"
+                      "sha256":  "66af5fb2238a9d4e51a024b90c2cd33c381dece8f0d28d08897cee1c03a743d2"
                   },
                   {
                       "path":  "sites-watch.ps1",
-                      "sha256":  "97dbee66e68c68c6819c17277ee12268bdd9094b26fdabe4fe455044c213a81f"
+                      "sha256":  "1ea92cad05725246087698111178e68a824b4a77e61c86199de14e17ae442dbf"
                   },
                   {
                       "path":  "smart-proxy.ps1",
-                      "sha256":  "aeff21b9a738c49f856004cd657f824624f74b45649b322f1c78cf1eab97e3c7"
+                      "sha256":  "a151e00e795ab6392eaf9a170c7e210a2a3f84186a5a831666929c7e5cbe9002"
                   },
                   {
                       "path":  "sort-downloads.ps1",
@@ -129,7 +129,7 @@
                   },
                   {
                       "path":  "startup-all.ps1",
-                      "sha256":  "74ad39a847358f9bdc9e594e7aec30adbb748c6e41050295eb5b2f76e3bb1ebe"
+                      "sha256":  "97f76c8f57daf49d3f43e57e2d518ed76b3d8b5ab11f72d975bd671d7cbe75f3"
                   },
                   {
                       "path":  "start-zapret.ps1",
@@ -137,7 +137,7 @@
                   },
                   {
                       "path":  "system-health.ps1",
-                      "sha256":  "8496e286d225b2b2215fb7c2c8313707c76c3effd64d4f4adfdb5e6203455ec2"
+                      "sha256":  "d921d39ddf3f070188f5cf59c7226c4997b4d0612c066f3b07b1cab2d6bc9a21"
                   },
                   {
                       "path":  "undo-sort-downloads.ps1",
@@ -149,15 +149,15 @@
                   },
                   {
                       "path":  "update-apps.ps1",
-                      "sha256":  "5b10ed311b26465ebb279b0aade8dc664f1b7ee9c20acc7d6aa6225049ab7264"
+                      "sha256":  "2d558039247031006cca50a6ebabe378fb039d72bb474b58487cc544ba8606ad"
                   },
                   {
                       "path":  "updater.ps1",
-                      "sha256":  "fcc87549a6e5dc6e0af71ae7523980386c086d7dbe526540aa0a3c69968c848e"
+                      "sha256":  "fc3c326a10ea5959586694f13e40ae92f2d572fd9e0c2b0dce3c5ee71e4f6bb8"
                   },
                   {
                       "path":  "zapret-repick.ps1",
-                      "sha256":  "4ef08ccdfd071e9b6413398576940cb02863cb497296022615f55efebbcc4a36"
+                      "sha256":  "44a58774e2c76bcb29f9c905e34fabacdf5c390c7c846dda10f2e164f9f0d786"
                   }
               ],
     "changes":  {
@@ -165,11 +165,11 @@
 
                             ],
                     "fixed":  [
-                                  "«Мышь и тачпад» узнаёт тачпад ноутбука и показывает, Precision ли он",
-                                  "Драйвер графического планшета больше не считается мышью и не мешает замеру"
+
                               ],
                     "improved":  [
-
+                                     "Обновление из окна ставится без лишнего вопроса Windows",
+                                     "Уборка временных файлов не заходит в чужие папки по ссылкам"
                                  ]
                 }
 }
