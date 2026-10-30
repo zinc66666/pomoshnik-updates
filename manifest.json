@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.27",
+    "version":  "1.0.28",
     "date":  "2026-10-30",
-    "notes":  "Долгие проверки показывают каждый шаг, автозагрузка честнее.",
+    "notes":  "Мелкие исправления: мышь, «Почему тормозит», счёт замечаний.",
     "files":  [
                   {
                       "path":  "backup.ps1",
@@ -25,7 +25,7 @@
                   },
                   {
                       "path":  "check-sites.ps1",
-                      "sha256":  "dc747d5a4abbbfb10ce6faa6f9947256335a11db4397061d7c216796147b49b9"
+                      "sha256":  "32f30cb0ca52a8816ce24c4b845a7c50afb3e349ca5d7fa6711b97a1ef31d82e"
                   },
                   {
                       "path":  "clean-junk.ps1",
@@ -69,7 +69,7 @@
                   },
                   {
                       "path":  "helper-app.ps1",
-                      "sha256":  "be1a41f49e3fcda2fc848066913b8e5b01cf1719f22a313dc1f02d1a09c4b5c5"
+                      "sha256":  "0f838d69ff5f88683fe5c05d30d3ff8df13e0bd91b0fb26a4e0560a6447d4caf"
                   },
                   {
                       "path":  "helper-menu.ps1",
@@ -77,7 +77,7 @@
                   },
                   {
                       "path":  "mouse.ps1",
-                      "sha256":  "65b8444e2ccb291f81586add81b8cf3cc3143006698eb5bf479cd662d54c422e"
+                      "sha256":  "d2f9beee9d57ac72fff6b3b62e07e508b4bf74540ca8849d8c2e22a652b38036"
                   },
                   {
                       "path":  "notify.ps1",
@@ -85,7 +85,7 @@
                   },
                   {
                       "path":  "pct-core.ps1",
-                      "sha256":  "1249291d643db2c00b55cbb9ed96d62ee87848e999185dd1bd78c1711428ef41"
+                      "sha256":  "1e19a08cb009c880cfc0be4badc59a08cca593e391f6c6d796d94eb0eab11e13"
                   },
                   {
                       "path":  "perf-now.ps1",
@@ -105,7 +105,7 @@
                   },
                   {
                       "path":  "revive.ps1",
-                      "sha256":  "c7506169fb10156f33f444344dd935e0edf641a84e0c6e9cf3df93108c906e12"
+                      "sha256":  "7000eb211f92b371cc49f8063766022842198aafe46204f965be7ed9be3cdf28"
                   },
                   {
                       "path":  "run.ps1",
@@ -129,7 +129,7 @@
                   },
                   {
                       "path":  "startup-all.ps1",
-                      "sha256":  "1a908b04c354a0ebf9ebd607682a4772556e90e150974343a4646339c477964f"
+                      "sha256":  "74ad39a847358f9bdc9e594e7aec30adbb748c6e41050295eb5b2f76e3bb1ebe"
                   },
                   {
                       "path":  "start-zapret.ps1",
@@ -137,7 +137,7 @@
                   },
                   {
                       "path":  "system-health.ps1",
-                      "sha256":  "5c737a572ccf87cb51ef757317e288318a126d5fe50dd32312d13b358b38054b"
+                      "sha256":  "8496e286d225b2b2215fb7c2c8313707c76c3effd64d4f4adfdb5e6203455ec2"
                   },
                   {
                       "path":  "undo-sort-downloads.ps1",
@@ -145,7 +145,7 @@
                   },
                   {
                       "path":  "uninstall-guard.ps1",
-                      "sha256":  "b478e2b0c4da20cf18b8571eb8f0980015a162e229f058911be79e59864464b5"
+                      "sha256":  "a0ea5baf1db91b129aac27e7adab68b5f7fa2a358644d4b824c7578547a7d90f"
                   },
                   {
                       "path":  "update-apps.ps1",
@@ -168,8 +168,8 @@
 
                               ],
                     "improved":  [
-                                     "«Что занимает место», «Проверить ноутбук» и другие показывают каждый шаг",
-                                     "«Что запускается с Windows» предупреждает о спрятанных и зашифрованных командах"
+                                     "«Мышь и тачпад» называет устройства по имени",
+                                     "«Почему тормозит» оставляет эскизы фото и показывает совет сразу"
                                  ]
                 }
 }
