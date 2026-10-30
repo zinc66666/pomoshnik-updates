@@ -1,15 +1,15 @@
 {
-    "version":  "1.0.26",
+    "version":  "1.0.27",
     "date":  "2026-10-30",
-    "notes":  "Исправлены проверка безопасности, автозагрузка и обновление программ.",
+    "notes":  "Долгие проверки показывают каждый шаг, автозагрузка честнее.",
     "files":  [
                   {
                       "path":  "backup.ps1",
-                      "sha256":  "bbb644a8e737ee640fe02e2011439d14bec89987aba32dd99753ba1fd639c693"
+                      "sha256":  "60a07d54a6b38678dc7af6c83a74a9b32c8959dceadf801646a945d4c01939e8"
                   },
                   {
                       "path":  "battery-report.ps1",
-                      "sha256":  "b700b11dcf620c136d8d2bb4d9b1bc94d22949cab361e2a197d4ccc97817e614"
+                      "sha256":  "31b3c9eb4bc8e20eb3928eb59e49084530a9ed82295e09ac5d7d7d14912d8a34"
                   },
                   {
                       "path":  "big-clean.ps1",
@@ -21,23 +21,23 @@
                   },
                   {
                       "path":  "check-now.ps1",
-                      "sha256":  "402d485ea08be450f91a4213a4e9496949b99c055050683d3337187941e58467"
+                      "sha256":  "52bdd0480dd4354ed27251b364b1260bd999551e3b24fa3d6aafc951e473cb48"
                   },
                   {
                       "path":  "check-sites.ps1",
-                      "sha256":  "65b54ef2926443b8b02b25ef2ac2a3b581900726c4d2cc6db5e0e79a896dd548"
+                      "sha256":  "dc747d5a4abbbfb10ce6faa6f9947256335a11db4397061d7c216796147b49b9"
                   },
                   {
                       "path":  "clean-junk.ps1",
-                      "sha256":  "d20884ca8c13c28e0d6ef236730f96189ecc3d27013fe426a5bf901da4e1627d"
+                      "sha256":  "37058831cfe2a530f1f3ef39b1a651de667ebc98698f6357a0f2bdb70cf73d18"
                   },
                   {
                       "path":  "clean-temp.ps1",
-                      "sha256":  "7f7e3d0412f43f788681980b711f9d496e65552fe4ca3b678ff26b3a544c053c"
+                      "sha256":  "c0e796df6b961ff7bb75b7b53f0f531fa7999261c896d546b2cbab5c72e8ee36"
                   },
                   {
                       "path":  "disk-space.ps1",
-                      "sha256":  "9bf39b5c2480eea3ba734834570c24f58dfabb11d8f8b47521baff1fc0e0a0a7"
+                      "sha256":  "f2bd9bb5f0dad7556744afd60b2bc565f75d0e42cc19a7d92b0df822452c4f60"
                   },
                   {
                       "path":  "energy.ps1",
@@ -57,7 +57,7 @@
                   },
                   {
                       "path":  "guard-downloads.ps1",
-                      "sha256":  "3bfd3124645abd3682b5d304e77f5f4e2476e01daacf27e7d8154bffb0c0e997"
+                      "sha256":  "2f056c1cf7aab28d2366f2a6e7f99c7b212de3482192d9d035ec026f3b3515cd"
                   },
                   {
                       "path":  "guard-toggle.ps1",
@@ -65,7 +65,7 @@
                   },
                   {
                       "path":  "happ-connect.ps1",
-                      "sha256":  "daf49919432b5d7e677db1cb6f66a38495c19931dd0424acabe26333ef3bf647"
+                      "sha256":  "20f4a3c70c5f56c66bfeac200fde0123f2b34b0ea64efb17623e7fad43804563"
                   },
                   {
                       "path":  "helper-app.ps1",
@@ -129,11 +129,7 @@
                   },
                   {
                       "path":  "startup-all.ps1",
-                      "sha256":  "4f60f60348dbbb74861ac5fe1ca3143b21c4761ac94d59b319c1459a15e75401"
-                  },
-                  {
-                      "path":  "startup-apps.ps1",
-                      "sha256":  "e370cd435fa50703f0e504b8a38e1f2b6f7b152ff947a41350b19ba30dad5104"
+                      "sha256":  "1a908b04c354a0ebf9ebd607682a4772556e90e150974343a4646339c477964f"
                   },
                   {
                       "path":  "start-zapret.ps1",
@@ -141,19 +137,19 @@
                   },
                   {
                       "path":  "system-health.ps1",
-                      "sha256":  "5a705fab8fc284ac01969e0716f2d6eb2aaa6a7852dce12945b800c5bfacc11f"
+                      "sha256":  "5c737a572ccf87cb51ef757317e288318a126d5fe50dd32312d13b358b38054b"
                   },
                   {
                       "path":  "undo-sort-downloads.ps1",
-                      "sha256":  "afac6dcd16a71331c5a7dae21852d1d05ad0e85d0ab5a6fc089bf0898de73af9"
+                      "sha256":  "3cecd276e60fd9d59d696f1b5edf0ff577468da521b19054c052878f9c8b7d37"
                   },
                   {
                       "path":  "uninstall-guard.ps1",
-                      "sha256":  "004db784d18114cc5a586ca5fe40e05187617aa9c4fae6d4587131377ac55288"
+                      "sha256":  "b478e2b0c4da20cf18b8571eb8f0980015a162e229f058911be79e59864464b5"
                   },
                   {
                       "path":  "update-apps.ps1",
-                      "sha256":  "9fd426f5b9753247e622ed85345e79c3fdc84ce5f760eef2b284ebdcaa04f8d8"
+                      "sha256":  "5b10ed311b26465ebb279b0aade8dc664f1b7ee9c20acc7d6aa6225049ab7264"
                   },
                   {
                       "path":  "updater.ps1",
@@ -169,11 +165,11 @@
 
                             ],
                     "fixed":  [
-                                  "Проверка безопасности больше не пишет «брандмауэр включён», если Windows не ответила",
-                                  "«Обновить программы» снова показывает список и спрашивает кнопками"
+
                               ],
                     "improved":  [
-
+                                     "«Что занимает место», «Проверить ноутбук» и другие показывают каждый шаг",
+                                     "«Что запускается с Windows» предупреждает о спрятанных и зашифрованных командах"
                                  ]
                 }
 }
