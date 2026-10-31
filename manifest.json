@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.34",
+    "version":  "1.0.35",
     "date":  "2026-10-31",
     "expires":  "2027-02-28",
-    "notes":  "Обновления защищены лучше: устаревший список обновлений не принимается.",
+    "notes":  "Защита: права администратора получает только настоящий PowerShell из Windows.",
     "files":  [
                   {
                       "path":  "backup.ps1",
@@ -26,7 +26,7 @@
                   },
                   {
                       "path":  "check-sites.ps1",
-                      "sha256":  "32f30cb0ca52a8816ce24c4b845a7c50afb3e349ca5d7fa6711b97a1ef31d82e"
+                      "sha256":  "3ff6d6cedff90c7e4cff6559ac383cfaf8a68eff7856d0896fc982a06493752f"
                   },
                   {
                       "path":  "clean-junk.ps1",
@@ -46,7 +46,7 @@
                   },
                   {
                       "path":  "file-repair.ps1",
-                      "sha256":  "f484ff5b6df12d29c368c342c150fb4faa84b7a39cbb9fc7c2866bd09bb6c246"
+                      "sha256":  "a12b97d064f205e410b51ae0d4dc463860cfc51c9f631eaaf2d1f970b6c48610"
                   },
                   {
                       "path":  "fix-internet.ps1",
@@ -62,7 +62,7 @@
                   },
                   {
                       "path":  "guard-toggle.ps1",
-                      "sha256":  "bf906b121a6a9a75ee89cde1230caf1fa9cace121a79ad1cf8b62cfe26a25fbe"
+                      "sha256":  "fa509eb8d90a6a03c75e4e5cc64aeaa344f74817959ad2ef5b9332f387279be7"
                   },
                   {
                       "path":  "happ-connect.ps1",
@@ -70,11 +70,11 @@
                   },
                   {
                       "path":  "helper-app.ps1",
-                      "sha256":  "8001f44ccaa5c999a52789c7d34c0aed1f7f8fc7bb8e268ff0612fbb27998a04"
+                      "sha256":  "6883912599d0f606fa66907b54fd36703ac219d7cc9af704272a3436b593ec7b"
                   },
                   {
                       "path":  "helper-menu.ps1",
-                      "sha256":  "e18283d79c376bd257973a233f55e489fc7f577eaf1a57222342898d3d028930"
+                      "sha256":  "17259bd6d30db9cd9059be8d6a0687f90f2caecb5a8273bb52c03ea8c9868ab6"
                   },
                   {
                       "path":  "mouse.ps1",
@@ -98,7 +98,7 @@
                   },
                   {
                       "path":  "Pomoshnik.exe",
-                      "sha256":  "79336e114c1acc304feb9d662e972e6ce1d86fab617a0d4527bb92cdaf7baf4b"
+                      "sha256":  "7c4fbd0129187e960a5d31f4d53775c9f3ad8fcf1cd980e60f5dbef362f43f25"
                   },
                   {
                       "path":  "privacy-check.ps1",
@@ -166,7 +166,7 @@
                   },
                   {
                       "path":  "zapret-repick.ps1",
-                      "sha256":  "44a58774e2c76bcb29f9c905e34fabacdf5c390c7c846dda10f2e164f9f0d786"
+                      "sha256":  "4efaa0a936b72b98673ef73e3dd134742328c72c8362edaba42e5451c130ea17"
                   }
               ],
     "changes":  {
@@ -174,10 +174,10 @@
 
                             ],
                     "fixed":  [
-
+                                  "Права администратора получает только настоящий PowerShell из Windows — чужая программа его не подменит."
                               ],
                     "improved":  [
-                                     "Обновления защищены лучше: Помощник не примет устаревший список обновлений."
+
                                  ]
                 }
 }
