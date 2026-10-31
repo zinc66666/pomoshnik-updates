@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.35",
+    "version":  "1.0.36",
     "date":  "2026-10-31",
     "expires":  "2027-02-28",
-    "notes":  "Защита: права администратора получает только настоящий PowerShell из Windows.",
+    "notes":  "Защита: уборка и обновление программ не дают чужой программе подменить папки и winget.",
     "files":  [
                   {
                       "path":  "backup.ps1",
@@ -14,7 +14,7 @@
                   },
                   {
                       "path":  "big-clean.ps1",
-                      "sha256":  "0b9da3cb67d272aace180f1ddae62c6d7804648db07c1d99f3c61be1295de232"
+                      "sha256":  "614434785728d42c36368f38d302b38cc87770fd78d6283a7b410d6aecc2e8e3"
                   },
                   {
                       "path":  "call-help.ps1",
@@ -30,11 +30,11 @@
                   },
                   {
                       "path":  "clean-junk.ps1",
-                      "sha256":  "ab935d52efe016912ebeae5fb6f029311e205427680056a702c4288769105e70"
+                      "sha256":  "4e762126df224ee686a0507b42d514fb5103c6f6e238a2d6a691d4a64783a49f"
                   },
                   {
                       "path":  "clean-temp.ps1",
-                      "sha256":  "b0b22d58afcbea4e16b75deb72f8f1f76879fd09d41a41a75fb8abf632d40d4e"
+                      "sha256":  "b4d166a1537ef14f423399369cec05424d2dd2b270bf580c5263c44e64df0869"
                   },
                   {
                       "path":  "disk-space.ps1",
@@ -90,7 +90,7 @@
                   },
                   {
                       "path":  "pct-core.ps1",
-                      "sha256":  "f8fd711d7da806371452b83c6296e1f326d01af6ebd0f66468f31e9e7c5c0111"
+                      "sha256":  "223e2ee8ea7e37089da3f0ac4df3566ea3da569b95a8879834370d56eba73473"
                   },
                   {
                       "path":  "perf-now.ps1",
@@ -98,7 +98,7 @@
                   },
                   {
                       "path":  "Pomoshnik.exe",
-                      "sha256":  "7c4fbd0129187e960a5d31f4d53775c9f3ad8fcf1cd980e60f5dbef362f43f25"
+                      "sha256":  "ade46d7f45d112c433861683efb184eb84b9e8160661b6e0e0f293a3ce0a6605"
                   },
                   {
                       "path":  "privacy-check.ps1",
@@ -138,7 +138,7 @@
                   },
                   {
                       "path":  "startup-all.ps1",
-                      "sha256":  "97f76c8f57daf49d3f43e57e2d518ed76b3d8b5ab11f72d975bd671d7cbe75f3"
+                      "sha256":  "fc004903f3bcb7f7d8f1e82dd58a07aa30663acf324dbb4dddf7a160bc26bae9"
                   },
                   {
                       "path":  "start-zapret.ps1",
@@ -158,7 +158,7 @@
                   },
                   {
                       "path":  "update-apps.ps1",
-                      "sha256":  "2d558039247031006cca50a6ebabe378fb039d72bb474b58487cc544ba8606ad"
+                      "sha256":  "fedcda504cd37d0bf0e59149ae56d414cd2e307b3007994c15c0dbf9a21eb129"
                   },
                   {
                       "path":  "updater.ps1",
@@ -174,7 +174,8 @@
 
                             ],
                     "fixed":  [
-                                  "Права администратора получает только настоящий PowerShell из Windows — чужая программа его не подменит."
+                                  "Уборка берёт папки только из надёжных мест — чужая программа не уведёт удаление.",
+                                  "Обновление программ запускает только настоящий winget и показывает, где его нашёл."
                               ],
                     "improved":  [
 
