@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.67",
+    "version":  "1.0.68",
     "date":  "2026-11-11",
     "expires":  "2027-03-11",
-    "notes":  "В «Дозоре за сутки» видно, сколько процессора сторожа потратили за сутки.",
+    "notes":  "Сторожа могут ждать конца игры или фильма на весь экран.",
     "files":  [
                   {
                       "path":  "backup.ps1",
@@ -34,7 +34,7 @@
                   },
                   {
                       "path":  "clean-temp.ps1",
-                      "sha256":  "f067cffe627e6e4e2e1446f0efb62328b0b2ae4b71c6a5034bdf2058eb32f9a7"
+                      "sha256":  "59b901cfdb2390562b7ba978c475835c21c1295ce7371f10a0bd01afacdda2b0"
                   },
                   {
                       "path":  "disk-space.ps1",
@@ -59,6 +59,10 @@
                   {
                       "path":  "guard-downloads.ps1",
                       "sha256":  "6870bedf0d6d31111491eae69cb531d55e8b59ed5fdaa4bbe0a0798887feccf9"
+                  },
+                  {
+                      "path":  "guards-game.ps1",
+                      "sha256":  "f95bb54a273f74314ac49c018079ed985717e4d159b403d6e42af986e714b535"
                   },
                   {
                       "path":  "guard-toggle.ps1",
@@ -90,7 +94,7 @@
                   },
                   {
                       "path":  "pct-core.ps1",
-                      "sha256":  "ab969554a75fbc97e6b66ff100c7449331dcd7304e52d5156dca6f66fdc5acd1"
+                      "sha256":  "1375a250b58bb9f20e34ad6c46055eac1893eaba4ddc7199442638cbab1db4eb"
                   },
                   {
                       "path":  "pct-wiper.ps1",
@@ -102,7 +106,7 @@
                   },
                   {
                       "path":  "Pomoshnik.exe",
-                      "sha256":  "df930a77ab9ad1462be6d0e8d337a9e4b14748a60c813ecc6544fe256f63ea8b"
+                      "sha256":  "628e6cf15fc8ff258e942ec1acbb00e1a7677691982a0cfb6b58702d0d1c141d"
                   },
                   {
                       "path":  "privacy-check.ps1",
@@ -134,7 +138,7 @@
                   },
                   {
                       "path":  "sites-watch.ps1",
-                      "sha256":  "a6eed9867b31407a673f9c36daa4c3a05f2bd5570c6386b38d47295a6164872c"
+                      "sha256":  "ae2f6ec392b83128e14b16d8acfc071100146096b90d7f91c8c233e1f990e4f3"
                   },
                   {
                       "path":  "smart-proxy.ps1",
@@ -154,7 +158,7 @@
                   },
                   {
                       "path":  "system-health.ps1",
-                      "sha256":  "b8a0cc06da09dbd6dfafcbe4e96e7cc9a7ffbc8fd03bd114b6dffac318687ce2"
+                      "sha256":  "061e3c2e34b6cb050aedb2f82a5670c353b8308bb658236d62da34e3e2b16079"
                   },
                   {
                       "path":  "tweaks-bg.ps1",
@@ -178,7 +182,7 @@
                   },
                   {
                       "path":  "updater.ps1",
-                      "sha256":  "a10e2bb5cb13121ad5e95cbc71ae19d77aa5aa6440e1f6231f29a5cb90e22cbe"
+                      "sha256":  "14710a3d2c6b6bc0cc6922436f49218a198fca2f4486d30cbe13fd683ccf4a0a"
                   },
                   {
                       "path":  "zapret-repick.ps1",
@@ -187,8 +191,8 @@
               ],
     "changes":  {
                     "new":  [
-                                "Строка «Нагрузка» в «Дозоре»: настоящее время процессора сторожей за сутки",
-                                "Журналы уведомлений и обновлений больше не растут без предела"
+                                "Кнопка «Ждать конца игры» в «Дозоре за сутки»: плановые проверки ждут, пока открыта игра на весь экран",
+                                "Опасный файл и новое в автозапуске сторожа проверяют сразу, даже в игре"
                             ],
                     "fixed":  [
 
