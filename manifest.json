@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.66",
+    "version":  "1.0.67",
     "date":  "2026-11-11",
     "expires":  "2027-03-11",
-    "notes":  "В «Сторожах» — «Дозор за сутки».",
+    "notes":  "В «Дозоре за сутки» видно, сколько процессора сторожа потратили за сутки.",
     "files":  [
                   {
                       "path":  "backup.ps1",
@@ -34,7 +34,7 @@
                   },
                   {
                       "path":  "clean-temp.ps1",
-                      "sha256":  "3bcdb57bacb1beaea650a693c33f5fae13d4ee9c95772c407d92cb5612e07ead"
+                      "sha256":  "f067cffe627e6e4e2e1446f0efb62328b0b2ae4b71c6a5034bdf2058eb32f9a7"
                   },
                   {
                       "path":  "disk-space.ps1",
@@ -54,11 +54,11 @@
                   },
                   {
                       "path":  "guard-autoruns.ps1",
-                      "sha256":  "184a39e9ecd2cc249298d428da624a9b88fcd5026571bab0d1dccfba8d48e4ca"
+                      "sha256":  "0d958ff10c819ec0210351785858baa0b24170e6880c5baca99a2f3367580469"
                   },
                   {
                       "path":  "guard-downloads.ps1",
-                      "sha256":  "16aab38c0cf746d92eefaa7f5c537845b689014c9272b50f5f1aca3e12934c9e"
+                      "sha256":  "6870bedf0d6d31111491eae69cb531d55e8b59ed5fdaa4bbe0a0798887feccf9"
                   },
                   {
                       "path":  "guard-toggle.ps1",
@@ -66,7 +66,7 @@
                   },
                   {
                       "path":  "happ-connect.ps1",
-                      "sha256":  "6e3213fe730410f5f37c9a3d29816d8fcbb277c6cd75c18e2f5867d7fd1ea9b0"
+                      "sha256":  "0b64bb348c69b0a3ec159c2f52c158272954810d8116fbd0fcecc75a7c42e1ca"
                   },
                   {
                       "path":  "helper-app.ps1",
@@ -82,7 +82,7 @@
                   },
                   {
                       "path":  "notify.ps1",
-                      "sha256":  "a55fad89b24296be39f36a8682ca452eed7cc755944d0040ba95662f7148aeaa"
+                      "sha256":  "205f1a269038efc63e0260679f4c9ac974535925199e62430b5082d2f2bf0b74"
                   },
                   {
                       "path":  "open-helper.ps1",
@@ -90,7 +90,7 @@
                   },
                   {
                       "path":  "pct-core.ps1",
-                      "sha256":  "db3b6ff7730206778005b543364e496208813d8e5dc31f7fe99bddf939ec2f88"
+                      "sha256":  "ab969554a75fbc97e6b66ff100c7449331dcd7304e52d5156dca6f66fdc5acd1"
                   },
                   {
                       "path":  "pct-wiper.ps1",
@@ -102,7 +102,7 @@
                   },
                   {
                       "path":  "Pomoshnik.exe",
-                      "sha256":  "767ae438cafe2afc407e9635a531581870f20f865ca088db5d502cc24b519cc0"
+                      "sha256":  "df930a77ab9ad1462be6d0e8d337a9e4b14748a60c813ecc6544fe256f63ea8b"
                   },
                   {
                       "path":  "privacy-check.ps1",
@@ -134,7 +134,7 @@
                   },
                   {
                       "path":  "sites-watch.ps1",
-                      "sha256":  "1ea92cad05725246087698111178e68a824b4a77e61c86199de14e17ae442dbf"
+                      "sha256":  "a6eed9867b31407a673f9c36daa4c3a05f2bd5570c6386b38d47295a6164872c"
                   },
                   {
                       "path":  "smart-proxy.ps1",
@@ -150,11 +150,11 @@
                   },
                   {
                       "path":  "start-zapret.ps1",
-                      "sha256":  "17b33bcf2d3307e952ec4a57a0ccd47e141883af9c2f33444a1448254a995c12"
+                      "sha256":  "eb0a065d5db5bd2976a436c1a3070c189232eba98e962f6c09c2a3ab3d32b1f2"
                   },
                   {
                       "path":  "system-health.ps1",
-                      "sha256":  "f406306f97a52c8c7d11265519075140b7941027ca1d1668104b78a08c975987"
+                      "sha256":  "b8a0cc06da09dbd6dfafcbe4e96e7cc9a7ffbc8fd03bd114b6dffac318687ce2"
                   },
                   {
                       "path":  "tweaks-bg.ps1",
@@ -178,7 +178,7 @@
                   },
                   {
                       "path":  "updater.ps1",
-                      "sha256":  "e78ff8eb3a12974bc23741c2d8682ee5407088c978385308288e010eccf51c11"
+                      "sha256":  "a10e2bb5cb13121ad5e95cbc71ae19d77aa5aa6440e1f6231f29a5cb90e22cbe"
                   },
                   {
                       "path":  "zapret-repick.ps1",
@@ -187,7 +187,8 @@
               ],
     "changes":  {
                     "new":  [
-                                "В «Сторожах» появился «Дозор за сутки»: когда сторожа просыпались и что сделали без тебя"
+                                "Строка «Нагрузка» в «Дозоре»: настоящее время процессора сторожей за сутки",
+                                "Журналы уведомлений и обновлений больше не растут без предела"
                             ],
                     "fixed":  [
 
