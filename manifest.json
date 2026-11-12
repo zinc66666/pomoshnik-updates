@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.81",
+    "version":  "1.0.82",
     "date":  "2026-11-13",
     "expires":  "2027-03-13",
-    "notes":  "«Что тормозит сейчас» отвечает вдвое быстрее",
+    "notes":  "«Автозагрузка» открывается сразу",
     "files":  [
                   {
                       "path":  "apps-remove.ps1",
@@ -118,7 +118,7 @@
                   },
                   {
                       "path":  "Pomoshnik.exe",
-                      "sha256":  "a2b19acaa2cd4860db86ddad8da05b9ebd0d101302add0e81716329b6d77cf19"
+                      "sha256":  "b3da24193df47ed82838291a059b60c509de0203d5f7bdc72a948f34f1cceef4"
                   },
                   {
                       "path":  "privacy-check.ps1",
@@ -162,7 +162,7 @@
                   },
                   {
                       "path":  "startup-all.ps1",
-                      "sha256":  "0222e1d7eb3a2c4991236c0e9e4ea0d355aa05951eb1b2fe293db165bf7fa33a"
+                      "sha256":  "437442b4c6ac4ac6ec6b1418f95bb33bd0593b7783fbdfc0088a0a87d99e8c98"
                   },
                   {
                       "path":  "start-zapret.ps1",
@@ -209,7 +209,7 @@
 
                               ],
                     "improved":  [
-                                     "«Что тормозит сейчас» отвечает за 5 секунд вместо 11"
+                                     "«Автозагрузка» открывается сразу: Помощник читает её заранее"
                                  ]
                 }
 }
