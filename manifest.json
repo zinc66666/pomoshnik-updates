@@ -1,8 +1,8 @@
 {
-  "version": "1.0.88",
+  "version": "1.0.89",
   "date": "2026-11-13",
   "expires": "2027-03-13",
-  "notes": "Новая лента «Что я делаю»: каждый шаг со временем, знаком и итогом",
+  "notes": "Кнопка «Подробнее» в ленте: видно, какие папки и разделы трогает каждый шаг",
   "files": [
     {
       "path": "apps-remove.ps1",
@@ -22,7 +22,7 @@
     },
     {
       "path": "big-clean.ps1",
-      "sha256": "2595e4dd6080e27e5c196af09d247800aab041069c6e0e440b4e1706601b8a66"
+      "sha256": "d552b12e5a041f2da3ef1c09c252ce471244a2ab256d76db258f7f8dc9d29efe"
     },
     {
       "path": "call-help.ps1",
@@ -90,11 +90,11 @@
     },
     {
       "path": "health-score.ps1",
-      "sha256": "d42ff16a0e87447f7fba3d40404d808aacc9e94282084009c0aff7c4838c7dae"
+      "sha256": "d522f03e7cf06449dfb0567f46d9a6f51871853e5a0bd6b034b28e4da2b5e390"
     },
     {
       "path": "helper-app.ps1",
-      "sha256": "cd8068a5562ef4b3b96f2cb20f2314c197e75ec9dfb963abcea758f3b51cfe78"
+      "sha256": "53e9699ade87b1532c8f4e35f20a1f2ce8660d182a236daddd08f77dbebe0bb7"
     },
     {
       "path": "helper-menu.ps1",
@@ -126,7 +126,7 @@
     },
     {
       "path": "Pomoshnik.exe",
-      "sha256": "11574a0b6e76328ce98c06d8f7a23fd51aed69afdd222846190249d2d24ba330"
+      "sha256": "31d075364de92ee857eb824ba6b74b5d9fa988f4467b52a9074223f22137e723"
     },
     {
       "path": "privacy-check.ps1",
@@ -150,7 +150,7 @@
     },
     {
       "path": "run.ps1",
-      "sha256": "e439ea6f80d901668ec0c13eb5c1d460f10a890ce2837854b5c74a417b8455a7"
+      "sha256": "384b8b99896f3d594c26c92abcafd4155af4f3adb6969e473d79168692eda84c"
     },
     {
       "path": "site-fix.ps1",
@@ -213,7 +213,7 @@
     "new": [],
     "fixed": [],
     "improved": [
-      "Ход любого дела теперь видно как ленту: что сделано, что идёт, что впереди"
+      "Уборка и проверка показывают по кнопке «Подробнее», что именно читают и убирают"
     ]
   }
 }
