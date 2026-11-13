@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.84",
+    "version":  "1.0.85",
     "date":  "2026-11-13",
     "expires":  "2027-03-13",
-    "notes":  "«Проверка безопасности» показывает каждый шаг",
+    "notes":  "Основа оценки здоровья компьютера; «Проверить компьютер» работает как раньше",
     "files":  [
                   {
                       "path":  "apps-remove.ps1",
@@ -85,6 +85,10 @@
                       "sha256":  "0b64bb348c69b0a3ec159c2f52c158272954810d8116fbd0fcecc75a7c42e1ca"
                   },
                   {
+                      "path":  "health-score.ps1",
+                      "sha256":  "707172be4df3bcdfa8708b1ac93e2b8beda8a8b532f0455aff481ffc9af1dfff"
+                  },
+                  {
                       "path":  "helper-app.ps1",
                       "sha256":  "cd8068a5562ef4b3b96f2cb20f2314c197e75ec9dfb963abcea758f3b51cfe78"
                   },
@@ -106,7 +110,7 @@
                   },
                   {
                       "path":  "pct-core.ps1",
-                      "sha256":  "4bc27fe2249fc9431615259f509d86de9ecf09ba67eaf7d8832f769355f539c9"
+                      "sha256":  "7b3727954246d44b90e4d7fbaa41261ebf475ef839ad9f6a4c14b4c47227b366"
                   },
                   {
                       "path":  "pct-wiper.ps1",
@@ -118,7 +122,7 @@
                   },
                   {
                       "path":  "Pomoshnik.exe",
-                      "sha256":  "74dced2713af85bf17643eac238fbe61f13a1493f2b4d62e44f9158c8ff126bc"
+                      "sha256":  "63d8441d4a1450170b1687234bc083d1219114245535a72926105deccede391f"
                   },
                   {
                       "path":  "privacy-check.ps1",
@@ -170,7 +174,7 @@
                   },
                   {
                       "path":  "system-health.ps1",
-                      "sha256":  "061e3c2e34b6cb050aedb2f82a5670c353b8308bb658236d62da34e3e2b16079"
+                      "sha256":  "59a7530c0e9fdf6d160f708acc669a41ea25cede43519036e7d8efb29745781c"
                   },
                   {
                       "path":  "tweaks-bg.ps1",
@@ -209,7 +213,7 @@
 
                               ],
                     "improved":  [
-                                     "«Проверка безопасности» показывает каждый шаг и его итог"
+                                     "Подготовлена оценка здоровья компьютера: экран появится в следующей версии"
                                  ]
                 }
 }
