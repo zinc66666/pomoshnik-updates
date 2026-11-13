@@ -1,219 +1,218 @@
 {
-    "version":  "1.0.85",
-    "date":  "2026-11-13",
-    "expires":  "2027-03-13",
-    "notes":  "Основа оценки здоровья компьютера; «Проверить компьютер» работает как раньше",
-    "files":  [
-                  {
-                      "path":  "apps-remove.ps1",
-                      "sha256":  "21db0c9b33784a4805a589804a1985f70c58e2845baf677ccd12024c94f886ac"
-                  },
-                  {
-                      "path":  "backup.ps1",
-                      "sha256":  "01de70b97a993706eb3585635c5c1174fd2880b7aec1f941ec6a0b45e2c0d3f4"
-                  },
-                  {
-                      "path":  "battery-report.ps1",
-                      "sha256":  "31b3c9eb4bc8e20eb3928eb59e49084530a9ed82295e09ac5d7d7d14912d8a34"
-                  },
-                  {
-                      "path":  "big-clean.ps1",
-                      "sha256":  "63f606561ef909bd3a49b1c53bfa9080d928216b0587d4d0748997fccd1c625f"
-                  },
-                  {
-                      "path":  "call-help.ps1",
-                      "sha256":  "7c2804150b2d7663ade797970cab43c236f4888be4f744a667d1138523126d39"
-                  },
-                  {
-                      "path":  "check-now.ps1",
-                      "sha256":  "0942741df78a7b50b29644042ff0bc52f3d95e64050aa8d6ee26674a2a8c7886"
-                  },
-                  {
-                      "path":  "check-sites.ps1",
-                      "sha256":  "3ff6d6cedff90c7e4cff6559ac383cfaf8a68eff7856d0896fc982a06493752f"
-                  },
-                  {
-                      "path":  "clean-junk.ps1",
-                      "sha256":  "9468873f9f72c24158513bd445c74932285efafeb9bdbfc3381bb56389aaaaa9"
-                  },
-                  {
-                      "path":  "clean-temp.ps1",
-                      "sha256":  "59b901cfdb2390562b7ba978c475835c21c1295ce7371f10a0bd01afacdda2b0"
-                  },
-                  {
-                      "path":  "disk-space.ps1",
-                      "sha256":  "71194a2d47fe5bbcf8cdd86fcaf389168dcc4222a4e83ad583329f520f3c5e1d"
-                  },
-                  {
-                      "path":  "drivers-install.ps1",
-                      "sha256":  "6e8583df9b0138079ac907bbc8f38d621f2b07bec817c9aff06faf9e752db4d6"
-                  },
-                  {
-                      "path":  "drivers-scan.ps1",
-                      "sha256":  "93ba930c5b5b475a7d6a9feca05dddeee79512c7f8c04471365740af9aa8daa8"
-                  },
-                  {
-                      "path":  "energy.ps1",
-                      "sha256":  "26c808e20b4dc0382183ee0b3c51a67a215ac5ecd702e73c0c658aada0611a2e"
-                  },
-                  {
-                      "path":  "file-repair.ps1",
-                      "sha256":  "a12b97d064f205e410b51ae0d4dc463860cfc51c9f631eaaf2d1f970b6c48610"
-                  },
-                  {
-                      "path":  "fix-internet.ps1",
-                      "sha256":  "79635fe8d7ffcb7d2b27b050e1af02e925216780f19f25ffa9f7e8fa7d374dbf"
-                  },
-                  {
-                      "path":  "guard-autoruns.ps1",
-                      "sha256":  "0d958ff10c819ec0210351785858baa0b24170e6880c5baca99a2f3367580469"
-                  },
-                  {
-                      "path":  "guard-downloads.ps1",
-                      "sha256":  "6870bedf0d6d31111491eae69cb531d55e8b59ed5fdaa4bbe0a0798887feccf9"
-                  },
-                  {
-                      "path":  "guards-game.ps1",
-                      "sha256":  "f95bb54a273f74314ac49c018079ed985717e4d159b403d6e42af986e714b535"
-                  },
-                  {
-                      "path":  "guard-toggle.ps1",
-                      "sha256":  "d68f583c042e972ae1c036e55299da19c3f0220e2415eabe31838a84133dfe42"
-                  },
-                  {
-                      "path":  "happ-connect.ps1",
-                      "sha256":  "0b64bb348c69b0a3ec159c2f52c158272954810d8116fbd0fcecc75a7c42e1ca"
-                  },
-                  {
-                      "path":  "health-score.ps1",
-                      "sha256":  "707172be4df3bcdfa8708b1ac93e2b8beda8a8b532f0455aff481ffc9af1dfff"
-                  },
-                  {
-                      "path":  "helper-app.ps1",
-                      "sha256":  "cd8068a5562ef4b3b96f2cb20f2314c197e75ec9dfb963abcea758f3b51cfe78"
-                  },
-                  {
-                      "path":  "helper-menu.ps1",
-                      "sha256":  "5605ef91a5d4d5648e3f98279b870f744f077c075087d9695a7cb628a466f5f8"
-                  },
-                  {
-                      "path":  "mouse.ps1",
-                      "sha256":  "8b5b606d2ffcca4a09904eae3163457837be531ddae4d5c935ca8a91a8ce2692"
-                  },
-                  {
-                      "path":  "notify.ps1",
-                      "sha256":  "205f1a269038efc63e0260679f4c9ac974535925199e62430b5082d2f2bf0b74"
-                  },
-                  {
-                      "path":  "open-helper.ps1",
-                      "sha256":  "b93b9d4d0aef70b542de4cc8138e7bb0f48269838fd9210e3bc230aabde46a1a"
-                  },
-                  {
-                      "path":  "pct-core.ps1",
-                      "sha256":  "7b3727954246d44b90e4d7fbaa41261ebf475ef839ad9f6a4c14b4c47227b366"
-                  },
-                  {
-                      "path":  "pct-wiper.ps1",
-                      "sha256":  "f76e3ea4d367334ac93f1ad343d607109cbad8567b528b67d6c53fdb8b9e0632"
-                  },
-                  {
-                      "path":  "perf-now.ps1",
-                      "sha256":  "a84db830fb77b046a17bb153daa31e6f0d952c79230d0650f7728dba069007fe"
-                  },
-                  {
-                      "path":  "Pomoshnik.exe",
-                      "sha256":  "63d8441d4a1450170b1687234bc083d1219114245535a72926105deccede391f"
-                  },
-                  {
-                      "path":  "privacy-check.ps1",
-                      "sha256":  "599aa56e68ba1789813dc7fe4e8a95390f3f0c896bb247d01a064ff26f02b1d6"
-                  },
-                  {
-                      "path":  "privacy-send.ps1",
-                      "sha256":  "8f1bf149dcc7f039c792f9bf3c24b04dd06c59d3ad3687ac5c6afebe180d6efb"
-                  },
-                  {
-                      "path":  "proxy-sites-default.txt",
-                      "sha256":  "2e64bd59a57a30a874e39b15fd9d4a83ff66ad58da266cf33c72807c7c5bedc0"
-                  },
-                  {
-                      "path":  "restart-zapret.ps1",
-                      "sha256":  "b868a5d098f142d185bdc0f4cdcc2261f440a1330b7e1cb0ad2cc5f0e3b20c76"
-                  },
-                  {
-                      "path":  "revive.ps1",
-                      "sha256":  "c9e1ca741775ecbdc49c292842c34cf81ce43dd8ae72feca9ff12137ba8d3367"
-                  },
-                  {
-                      "path":  "run.ps1",
-                      "sha256":  "e439ea6f80d901668ec0c13eb5c1d460f10a890ce2837854b5c74a417b8455a7"
-                  },
-                  {
-                      "path":  "site-fix.ps1",
-                      "sha256":  "798d7bcc1e1ca3fa057c73a17fe4868a863b117dda6caa574b583102ec58f347"
-                  },
-                  {
-                      "path":  "sites-watch.ps1",
-                      "sha256":  "d31f5d09dbdf5f45ed8921dab23ad6d71e426e5e1e47a0557cbc48450392c36d"
-                  },
-                  {
-                      "path":  "smart-proxy.ps1",
-                      "sha256":  "a151e00e795ab6392eaf9a170c7e210a2a3f84186a5a831666929c7e5cbe9002"
-                  },
-                  {
-                      "path":  "sort-downloads.ps1",
-                      "sha256":  "75265e4ab116eda6b3f6109fd772d4a199ccaaf39c78da4cecd6bf2c97896d37"
-                  },
-                  {
-                      "path":  "startup-all.ps1",
-                      "sha256":  "437442b4c6ac4ac6ec6b1418f95bb33bd0593b7783fbdfc0088a0a87d99e8c98"
-                  },
-                  {
-                      "path":  "start-zapret.ps1",
-                      "sha256":  "eb0a065d5db5bd2976a436c1a3070c189232eba98e962f6c09c2a3ab3d32b1f2"
-                  },
-                  {
-                      "path":  "system-health.ps1",
-                      "sha256":  "59a7530c0e9fdf6d160f708acc669a41ea25cede43519036e7d8efb29745781c"
-                  },
-                  {
-                      "path":  "tweaks-bg.ps1",
-                      "sha256":  "8bc24f5dcdb2c146a23b3625961fdbf67e36287dcabccebc08e57eaae9d76b97"
-                  },
-                  {
-                      "path":  "undo.ps1",
-                      "sha256":  "5049619a4905b3078dfa426307bb9364b1e60f29db511c232e80149612d29685"
-                  },
-                  {
-                      "path":  "undo-sort-downloads.ps1",
-                      "sha256":  "3cecd276e60fd9d59d696f1b5edf0ff577468da521b19054c052878f9c8b7d37"
-                  },
-                  {
-                      "path":  "uninstall-guard.ps1",
-                      "sha256":  "a0ea5baf1db91b129aac27e7adab68b5f7fa2a358644d4b824c7578547a7d90f"
-                  },
-                  {
-                      "path":  "update-apps.ps1",
-                      "sha256":  "fedcda504cd37d0bf0e59149ae56d414cd2e307b3007994c15c0dbf9a21eb129"
-                  },
-                  {
-                      "path":  "updater.ps1",
-                      "sha256":  "b810a2a7dc275124d2ccf0d1fc423b589846273f84e6ba8f275bf994bc46ddf1"
-                  },
-                  {
-                      "path":  "zapret-repick.ps1",
-                      "sha256":  "4efaa0a936b72b98673ef73e3dd134742328c72c8362edaba42e5451c130ea17"
-                  }
-              ],
-    "changes":  {
-                    "new":  [
-
-                            ],
-                    "fixed":  [
-
-                              ],
-                    "improved":  [
-                                     "Подготовлена оценка здоровья компьютера: экран появится в следующей версии"
-                                 ]
-                }
+  "version": "1.0.86",
+  "date": "2026-11-13",
+  "expires": "2027-03-13",
+  "notes": "Новый экран «Здоровье компьютера»",
+  "files": [
+    {
+      "path": "apps-remove.ps1",
+      "sha256": "21db0c9b33784a4805a589804a1985f70c58e2845baf677ccd12024c94f886ac"
+    },
+    {
+      "path": "backup.ps1",
+      "sha256": "01de70b97a993706eb3585635c5c1174fd2880b7aec1f941ec6a0b45e2c0d3f4"
+    },
+    {
+      "path": "battery-report.ps1",
+      "sha256": "31b3c9eb4bc8e20eb3928eb59e49084530a9ed82295e09ac5d7d7d14912d8a34"
+    },
+    {
+      "path": "big-clean.ps1",
+      "sha256": "63f606561ef909bd3a49b1c53bfa9080d928216b0587d4d0748997fccd1c625f"
+    },
+    {
+      "path": "call-help.ps1",
+      "sha256": "7c2804150b2d7663ade797970cab43c236f4888be4f744a667d1138523126d39"
+    },
+    {
+      "path": "check-now.ps1",
+      "sha256": "0942741df78a7b50b29644042ff0bc52f3d95e64050aa8d6ee26674a2a8c7886"
+    },
+    {
+      "path": "check-sites.ps1",
+      "sha256": "3ff6d6cedff90c7e4cff6559ac383cfaf8a68eff7856d0896fc982a06493752f"
+    },
+    {
+      "path": "clean-junk.ps1",
+      "sha256": "9468873f9f72c24158513bd445c74932285efafeb9bdbfc3381bb56389aaaaa9"
+    },
+    {
+      "path": "clean-temp.ps1",
+      "sha256": "59b901cfdb2390562b7ba978c475835c21c1295ce7371f10a0bd01afacdda2b0"
+    },
+    {
+      "path": "disk-space.ps1",
+      "sha256": "71194a2d47fe5bbcf8cdd86fcaf389168dcc4222a4e83ad583329f520f3c5e1d"
+    },
+    {
+      "path": "drivers-install.ps1",
+      "sha256": "6e8583df9b0138079ac907bbc8f38d621f2b07bec817c9aff06faf9e752db4d6"
+    },
+    {
+      "path": "drivers-scan.ps1",
+      "sha256": "93ba930c5b5b475a7d6a9feca05dddeee79512c7f8c04471365740af9aa8daa8"
+    },
+    {
+      "path": "energy.ps1",
+      "sha256": "26c808e20b4dc0382183ee0b3c51a67a215ac5ecd702e73c0c658aada0611a2e"
+    },
+    {
+      "path": "file-repair.ps1",
+      "sha256": "a12b97d064f205e410b51ae0d4dc463860cfc51c9f631eaaf2d1f970b6c48610"
+    },
+    {
+      "path": "fix-internet.ps1",
+      "sha256": "79635fe8d7ffcb7d2b27b050e1af02e925216780f19f25ffa9f7e8fa7d374dbf"
+    },
+    {
+      "path": "guard-autoruns.ps1",
+      "sha256": "0d958ff10c819ec0210351785858baa0b24170e6880c5baca99a2f3367580469"
+    },
+    {
+      "path": "guard-downloads.ps1",
+      "sha256": "6870bedf0d6d31111491eae69cb531d55e8b59ed5fdaa4bbe0a0798887feccf9"
+    },
+    {
+      "path": "guard-toggle.ps1",
+      "sha256": "d68f583c042e972ae1c036e55299da19c3f0220e2415eabe31838a84133dfe42"
+    },
+    {
+      "path": "guards-game.ps1",
+      "sha256": "f95bb54a273f74314ac49c018079ed985717e4d159b403d6e42af986e714b535"
+    },
+    {
+      "path": "happ-connect.ps1",
+      "sha256": "0b64bb348c69b0a3ec159c2f52c158272954810d8116fbd0fcecc75a7c42e1ca"
+    },
+    {
+      "path": "health-score.ps1",
+      "sha256": "d42ff16a0e87447f7fba3d40404d808aacc9e94282084009c0aff7c4838c7dae"
+    },
+    {
+      "path": "helper-app.ps1",
+      "sha256": "cd8068a5562ef4b3b96f2cb20f2314c197e75ec9dfb963abcea758f3b51cfe78"
+    },
+    {
+      "path": "helper-menu.ps1",
+      "sha256": "5605ef91a5d4d5648e3f98279b870f744f077c075087d9695a7cb628a466f5f8"
+    },
+    {
+      "path": "mouse.ps1",
+      "sha256": "8b5b606d2ffcca4a09904eae3163457837be531ddae4d5c935ca8a91a8ce2692"
+    },
+    {
+      "path": "notify.ps1",
+      "sha256": "205f1a269038efc63e0260679f4c9ac974535925199e62430b5082d2f2bf0b74"
+    },
+    {
+      "path": "open-helper.ps1",
+      "sha256": "b93b9d4d0aef70b542de4cc8138e7bb0f48269838fd9210e3bc230aabde46a1a"
+    },
+    {
+      "path": "pct-core.ps1",
+      "sha256": "7b3727954246d44b90e4d7fbaa41261ebf475ef839ad9f6a4c14b4c47227b366"
+    },
+    {
+      "path": "pct-wiper.ps1",
+      "sha256": "f76e3ea4d367334ac93f1ad343d607109cbad8567b528b67d6c53fdb8b9e0632"
+    },
+    {
+      "path": "perf-now.ps1",
+      "sha256": "a84db830fb77b046a17bb153daa31e6f0d952c79230d0650f7728dba069007fe"
+    },
+    {
+      "path": "Pomoshnik.exe",
+      "sha256": "47700c6b6443e821770ce9a3129d5057ad7c9f6b3bad4c5966e7f78a42d9033c"
+    },
+    {
+      "path": "privacy-check.ps1",
+      "sha256": "599aa56e68ba1789813dc7fe4e8a95390f3f0c896bb247d01a064ff26f02b1d6"
+    },
+    {
+      "path": "privacy-send.ps1",
+      "sha256": "8f1bf149dcc7f039c792f9bf3c24b04dd06c59d3ad3687ac5c6afebe180d6efb"
+    },
+    {
+      "path": "proxy-sites-default.txt",
+      "sha256": "2e64bd59a57a30a874e39b15fd9d4a83ff66ad58da266cf33c72807c7c5bedc0"
+    },
+    {
+      "path": "restart-zapret.ps1",
+      "sha256": "b868a5d098f142d185bdc0f4cdcc2261f440a1330b7e1cb0ad2cc5f0e3b20c76"
+    },
+    {
+      "path": "revive.ps1",
+      "sha256": "c9e1ca741775ecbdc49c292842c34cf81ce43dd8ae72feca9ff12137ba8d3367"
+    },
+    {
+      "path": "run.ps1",
+      "sha256": "e439ea6f80d901668ec0c13eb5c1d460f10a890ce2837854b5c74a417b8455a7"
+    },
+    {
+      "path": "site-fix.ps1",
+      "sha256": "798d7bcc1e1ca3fa057c73a17fe4868a863b117dda6caa574b583102ec58f347"
+    },
+    {
+      "path": "sites-watch.ps1",
+      "sha256": "d31f5d09dbdf5f45ed8921dab23ad6d71e426e5e1e47a0557cbc48450392c36d"
+    },
+    {
+      "path": "smart-proxy.ps1",
+      "sha256": "a151e00e795ab6392eaf9a170c7e210a2a3f84186a5a831666929c7e5cbe9002"
+    },
+    {
+      "path": "sort-downloads.ps1",
+      "sha256": "75265e4ab116eda6b3f6109fd772d4a199ccaaf39c78da4cecd6bf2c97896d37"
+    },
+    {
+      "path": "start-zapret.ps1",
+      "sha256": "eb0a065d5db5bd2976a436c1a3070c189232eba98e962f6c09c2a3ab3d32b1f2"
+    },
+    {
+      "path": "startup-all.ps1",
+      "sha256": "437442b4c6ac4ac6ec6b1418f95bb33bd0593b7783fbdfc0088a0a87d99e8c98"
+    },
+    {
+      "path": "system-health.ps1",
+      "sha256": "e5388ba169f4c4e23e896212a5599aa66ea0cb3e8b53585e349428313f10e3cb"
+    },
+    {
+      "path": "tweaks-bg.ps1",
+      "sha256": "8bc24f5dcdb2c146a23b3625961fdbf67e36287dcabccebc08e57eaae9d76b97"
+    },
+    {
+      "path": "undo-sort-downloads.ps1",
+      "sha256": "3cecd276e60fd9d59d696f1b5edf0ff577468da521b19054c052878f9c8b7d37"
+    },
+    {
+      "path": "undo.ps1",
+      "sha256": "5049619a4905b3078dfa426307bb9364b1e60f29db511c232e80149612d29685"
+    },
+    {
+      "path": "uninstall-guard.ps1",
+      "sha256": "a0ea5baf1db91b129aac27e7adab68b5f7fa2a358644d4b824c7578547a7d90f"
+    },
+    {
+      "path": "update-apps.ps1",
+      "sha256": "fedcda504cd37d0bf0e59149ae56d414cd2e307b3007994c15c0dbf9a21eb129"
+    },
+    {
+      "path": "updater.ps1",
+      "sha256": "b810a2a7dc275124d2ccf0d1fc423b589846273f84e6ba8f275bf994bc46ddf1"
+    },
+    {
+      "path": "zapret-repick.ps1",
+      "sha256": "4efaa0a936b72b98673ef73e3dd134742328c72c8362edaba42e5451c130ea17"
+    }
+  ],
+  "changes": {
+    "new": [
+      "Кнопка «Проверить компьютер» показывает здоровье: балл, слабое место и что поможет",
+      "На главной под кнопкой видно здоровье и слабое место"
+    ],
+    "fixed": [],
+    "improved": [
+      "Прежняя проверка с исправлениями — кнопка «Подробная проверка» на экране здоровья"
+    ]
+  }
 }
